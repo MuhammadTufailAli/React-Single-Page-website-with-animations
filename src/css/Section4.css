@@ -56,3 +56,17 @@
 .PeachBackgroundLeftDivInnerDivHeadingBlack {
   color: black;
 }
+@media screen and (max-width: 768px) {
+  .PeachBackgroundLeftDivInnerDivWhiteColor {
+    width: 100%;
+  }
+  .PeachBackgroundLeftDivInnerDivImgLaptop {
+    width: 100%;
+  }
+  .PeachBackgroundLeftDivInnerDivGreenColor {
+    width: 100%;
+  }
+  .PeachBackgroundLeftDivInnerDivImgTrading {
+    width: 100%;
+  }
+}

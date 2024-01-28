@@ -59,7 +59,7 @@ function Section1() {
               Register For Exclusive Trader Perks!
             </p>
 
-            <Input action='Search' placeholder='Enter Your Email' />
+            <Input action='Join Beta' placeholder='Enter Your Email' />
 
             <div className='PurpleBackgroundBottomDiv'>
               <p className='PurpleBackgroundBottomDivLeftText'>363</p>

@@ -204,3 +204,79 @@
     bottom: 32px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .FourImagesDiv {
+    display: flex;
+  }
+  .PlantImg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+  }
+  .TabDollar {
+    width: 70px;
+    height: 55px;
+    display: flex;
+    align-self: end;
+    margin-bottom: 24px;
+    z-index: 2;
+  }
+  .TabMan {
+    width: 100px;
+    height: 200px;
+    margin-left: -10px;
+  }
+  .TabRobot {
+    width: 58px;
+    height: 74px;
+    /* margin-right: 33px; */
+    margin-left: -21px;
+  }
+  .BlueBackgroundRightDivTopTextBlack {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+  }
+  .BlueBackgroundRightDivTopTextBlackSubparagraph {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .BlueBackgroundRightDivPurple {
+    width: 100%;
+    overflow: hidden;
+    padding: 48px 20px;
+  }
+  .BlueBackgroundRightDivTopTextPurple {
+    text-align: justify;
+  }
+
+  .BlueBackgroundRightDivTopTextPurpleParagraph {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: start;
+  }
+  .Section5TopDivRobotParentDiv {
+    display: none;
+  }
+  .Section5TopDivMobileParentDiv {
+    display: none;
+  }
+  .Section5TopDiv .ui.input {
+    width: 51%;
+    display: flex;
+    align-self: baseline;
+  }
+  .BlueBackgroundRightDivPurple .ui.button {
+    width: 132px !important;
+  }
+  .LastImagePhoneChwl {
+    width: 60%;
+    margin-bottom: -57px;
+  }
+}

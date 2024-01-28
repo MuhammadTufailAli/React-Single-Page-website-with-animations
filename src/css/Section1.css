@@ -387,3 +387,119 @@
     line-height: 72px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .ResponsiveDiv {
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Section1TopDivHeading {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    padding: 0px 35px;
+  }
+  .Section1TopDivSubHeading {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0px 0px;
+  }
+  .Section1TopDivWomanParentDiv {
+    display: none;
+  }
+  .Section1TopDivRobotParentDiv {
+    display: none;
+  }
+  .Section1TopDivChatParentDiv {
+    display: none;
+  }
+  .Section1TopDivAfterJoinUs {
+    font-size: 17.096px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.515px;
+    padding: 0px;
+  }
+  .Section1TopDivAfterJoinUs950 {
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20.515px;
+  }
+  .Section1TopDivAfterJoinUsCopy {
+    font-size: 17.096px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20.515px;
+  }
+  .PurpleBackgroundLeftDiv {
+    padding: 48px 20px;
+    width: 100%;
+  }
+  .PurpleBackgroundLeftDivTopText {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    width: 38%;
+  }
+  .PurpleBackgroundLeftDivTopSubText {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 48%;
+  }
+  .LaptopScreenShow {
+    display: none !important;
+  }
+  .PurpleBackground {
+    border-radius: 56px;
+    background: var(--purple-light, #cfceff);
+    display: flex;
+    flex: 1 1;
+    flex-direction: column !important;
+  }
+  .PurpleBackgroundParentDivLaptopImageParentDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: end;
+    position: relative;
+    top: -18px;
+    right: 0px;
+    margin-top: -42px;
+  }
+  .PurpleBackgroundParentDivLaptopImage {
+    width: 82%;
+    height: auto;
+    object-fit: cover;
+  }
+  .Section1TopDiv .ui.input {
+    width: 51%;
+  }
+  .PurpleBackgroundLeftDiv .ui.button {
+    width: 132px !important;
+  }
+  .PurpleBackgroundBottomDivLeftText {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+  }
+  .PurpleBackgroundBottomDivRightText {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+  }
+}

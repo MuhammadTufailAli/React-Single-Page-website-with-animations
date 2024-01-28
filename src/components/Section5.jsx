@@ -12,6 +12,7 @@ import robotman from '../assets/robotman.png';
 import dollar from '../assets/dollar.png';
 import lastRobot from '../assets/lastRobot.png';
 import lastobile from '../assets/lastmobile.png';
+import PhoneChwl from '../assets/PhoneChwl.png';
 
 function Section5() {
   return (
@@ -93,7 +94,7 @@ function Section5() {
             unleash our marketing force!
           </p>
 
-          <Input action='Search' placeholder='Enter Your Email' />
+          <Input action='Join Beta' placeholder='Enter Your Email' />
 
           <div className='PurpleBackgroundBottomDiv'>
             <p className='PurpleBackgroundBottomDivLeftText'>363</p>
@@ -102,6 +103,7 @@ function Section5() {
               Waitlisted
             </p>
           </div>
+          <img src={PhoneChwl} className='LastImagePhoneChwl' />
         </div>
       </div>
     </div>

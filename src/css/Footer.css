@@ -96,3 +96,36 @@
     gap: 12px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .FooterTopDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .LaptopFooterFirstDiv {
+    display: none;
+  }
+  .FooterTopDivFlex {
+    display: flex;
+    flex-direction: column;
+  }
+  .FooterFirstDiv {
+    align-items: center;
+  }
+  .FooterSecondDiv {
+    gap: 12px;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .FooterThirdDiv {
+    gap: 12px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .FooterFourthDiv {
+    gap: 12px;
+    align-items: center;
+    margin-top: 40px;
+  }
+}
