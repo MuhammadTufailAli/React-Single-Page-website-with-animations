@@ -1,0 +1,30 @@
+.Section5TopDiv {
+  background-color: #000;
+}
+.BlackBackgroundParentDivWhite {
+  background-color: white;
+}
+.BlueBackgroundRightDivTopTextBlack {
+  color: var(--black, #000);
+
+  /* h3 */
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 112.5% */
+}
+.BlueBackgroundRightDivTopTextBlackSubparagraph {
+  color: var(--black-80, rgba(0, 0, 0, 0.8));
+
+  /* h4 */
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+.PlantImg {
+  width: 68px;
+  margin-bottom: 25px;
+}

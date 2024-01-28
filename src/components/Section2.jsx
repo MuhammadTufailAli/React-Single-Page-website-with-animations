@@ -4,8 +4,8 @@ import { ListItem, ListIcon, ListContent, List } from 'semantic-ui-react';
 import { Input } from 'semantic-ui-react';
 
 import mobile1 from '../assets/mobile.png';
-import robot from '../assets/robot.png';
-import woman from '../assets/woman.png';
+import mobile2 from '../assets/mobile 2.png';
+import mobile3 from '../assets/mobile3.png';
 import chat from '../assets/chat.png';
 
 function Section2() {
@@ -75,6 +75,154 @@ function Section2() {
                       Integration prioritisation.
                     </span>{' '}
                     Request your specific needs!
+                  </p>
+                </ListContent>
+              </ListItem>
+            </List>
+
+            <p className='BlueBackgroundRightDivBottomText'>
+              Want to learn more about what's in it for you if you publish your
+              system?
+              <br />
+              Check out{' '}
+              <a className='BlueBackgroundRightDivBottomText BlueBackgroundRightDivBottomTextaTag'>
+                this
+              </a>{' '}
+              article in our Blog section.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='ResponsiveDiv BlackBackgroundParentDiv'>
+        <div className=' BlackBackground'>
+          <div className='BlueBackgroundRightDiv'>
+            <p className='BlueBackgroundRightDivTopText'>
+              Rent
+              <br />
+              and Earn
+            </p>
+            <List>
+              <ListItem>
+                <ListIcon name='check' />
+                <ListContent>
+                  <p className='BlueBackgroundRightDivListText'>
+                    <span className='BlueBackgroundRightDivListTextSpan'>
+                      Determine
+                    </span>{' '}
+                    the flat fee + earn 0.1% of the users capital
+                  </p>
+                </ListContent>
+              </ListItem>
+              <ListItem>
+                <ListIcon name='check' />
+                <ListContent>
+                  <p className='BlueBackgroundRightDivListText'>
+                    <span className='BlueBackgroundRightDivListTextSpan'>
+                      Reach
+                    </span>
+                    subscribers at launch with early access
+                  </p>
+                </ListContent>
+              </ListItem>
+              <ListItem>
+                <ListIcon name='check' />
+                <ListContent>
+                  <p className='BlueBackgroundRightDivListText'>
+                    <span className='BlueBackgroundRightDivListTextSpan'>
+                      Frictionless
+                    </span>{' '}
+                    for subscribers. Subscribe - Allocated - Automate
+                  </p>
+                </ListContent>
+              </ListItem>
+              <ListItem>
+                <ListIcon name='check' />
+                <ListContent>
+                  <p className='BlueBackgroundRightDivListText'>
+                    <span className='BlueBackgroundRightDivListTextSpan'>
+                      Protection
+                    </span>{' '}
+                    of your strategy through encryption
+                  </p>
+                </ListContent>
+              </ListItem>
+            </List>
+          </div>
+          <div className='BlackBackgroundLeftDiv'>
+            <img className='BlackBackgroundLeftDivImg' src={mobile2} />
+          </div>
+        </div>
+      </div>
+
+      <div className='ResponsiveDiv WhiteBackgroundParentDiv'>
+        <div className=' WhiteBackground'>
+          <div className='BlueBackgroundLeftDiv'>
+            <img className='BlueBackgroundLeftDivImg' src={mobile3} />
+          </div>
+          <div className='BlueBackgroundRightDiv'>
+            <p className='WhiteBackgroundRightDivTopText'>
+              Your Trading
+              <br />
+              Cockpit
+            </p>
+            <p className='WhiteBackgroundExtraText'>
+              All-in-one crypto trading.
+            </p>
+            <List>
+              <ListItem>
+                <ListIcon name='check' color='black' />
+                <ListContent>
+                  <p className='WhiteBackgroundRightDivListText'>
+                    <span className='WhiteBackgroundRightDivListTextSpan'>
+                      Connect
+                    </span>{' '}
+                    your exchange for full trading features
+                  </p>
+                </ListContent>
+              </ListItem>
+              <ListItem>
+                <ListIcon name='check' color='black' />
+                <ListContent>
+                  <p className='WhiteBackgroundRightDivListText'>
+                    <span className='WhiteBackgroundRightDivListTextSpan'>
+                      Trade
+                    </span>{' '}
+                    however you'd like. Automation or manually with alerts
+                  </p>
+                </ListContent>
+              </ListItem>
+              <ListItem>
+                <ListIcon name='check' color='black' />
+                <ListContent>
+                  <p className='WhiteBackgroundRightDivListText'>
+                    <span className='WhiteBackgroundRightDivListTextSpan'>
+                      Portfolio
+                    </span>{' '}
+                    aggregation for your exchanges and crypto wallets
+                  </p>
+                </ListContent>
+              </ListItem>
+              <ListItem>
+                <ListIcon name='check' color='black' />
+                <ListContent>
+                  <p className='WhiteBackgroundRightDivListText'>
+                    <span className='WhiteBackgroundRightDivListTextSpan'>
+                      Non-custodial
+                    </span>{' '}
+                    so your funds remain on your exchanges
+                  </p>
+                </ListContent>
+              </ListItem>
+
+              <ListItem>
+                <ListIcon name='check' color='black' />
+                <ListContent>
+                  <p className='WhiteBackgroundRightDivListText'>
+                    <span className='WhiteBackgroundRightDivListTextSpan'>
+                      Affiliate
+                    </span>{' '}
+                    Program to share with your network and earn
                   </p>
                 </ListContent>
               </ListItem>

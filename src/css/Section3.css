@@ -1,0 +1,88 @@
+.Section3TopDiv {
+  background-color: #ffd5c4;
+}
+.Section3ResponsiveDiv {
+  background-color: #ffd5c4;
+}
+.Section3TopDivHeading {
+  color: var(--peach-dark, #e18967);
+}
+.Section3TopDivHeadingSpan {
+  color: var(--black, #000);
+}
+.PeachBackgroundParentDiv {
+  background-color: #ffd5c4;
+  /* height: auto; */
+  height: 627px;
+}
+.PeachBackground {
+  background-color: #ffd5c4;
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+.PeachBackgroundLeftDiv {
+  flex: 1;
+  border-radius: 56px;
+  background: var(--white, #fff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PeachBackgroundLeftDivInnerDiv {
+  padding: 56px 56px 72px 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PeachBackgroundLeftDivInnerDivImg {
+  width: 202px;
+}
+.PeachBackgroundLeftDivInnerDivHeading {
+  color: var(--black, #000);
+
+  /* h3 */
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 112.5% */
+  text-align: start;
+  width: 100%;
+}
+.PeachBackgroundLeftDivInnerDivParagraph {
+  color: var(--black-80, rgba(0, 0, 0, 0.8));
+
+  /* body text */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.PeachBackgroundRightDiv {
+  flex: 1;
+  border-radius: 56px;
+  background: var(--white, #fff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PeachBackgroundRightDivInnerDivImg {
+  width: 474px;
+}
+
+.Section3TopDivBlackRightDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.PeachBackgroundLeftDivInnerDivParagraphWhite {
+  color: var(--white-80, rgba(255, 255, 255, 0.8));
+}
+.BlackBackgroundLeftDivImgExtra {
+  object-fit: contain;
+  width: 100%;
+  object-position: center;
+  right: 40px;
+}

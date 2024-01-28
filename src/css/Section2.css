@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 438px;
 }
 
 .Section2ResponsiveDiv {
@@ -37,6 +38,7 @@
   width: 100%;
   border-radius: 56px;
   background-color: #004973;
+  height: 627px;
 }
 
 .BlueBackground {
@@ -49,10 +51,16 @@
 .BlueBackgroundLeftDiv {
   flex: 1;
   position: relative;
-  padding: 72px 86px;
 }
 .BlueBackgroundLeftDivImg {
-  display: absolute;
+  position: absolute;
+  /* top: 11px; */
+  bottom: 0px;
+  left: 86px;
+  width: 67%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
 }
 .BlueBackgroundRightDiv {
   flex: 1.1;
@@ -106,4 +114,86 @@
 }
 .BlueBackgroundRightDivBottomTextaTag:hover {
   color: white;
+}
+
+.BlackBackgroundParentDiv {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 56px;
+  background-color: #000;
+  height: 627px;
+}
+
+.BlackBackground {
+  display: flex;
+  flex: 1;
+  flex-direction: row !important;
+
+  width: 100%;
+}
+.BlackBackgroundLeftDiv {
+  flex: 1;
+  position: relative;
+}
+.BlackBackgroundLeftDivImg {
+  position: absolute;
+  /* top: 11px; */
+  bottom: 0px;
+  right: 86px;
+  width: 67%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+.WhiteBackgroundParentDiv {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 56px;
+  background-color: white;
+  height: 627px;
+}
+
+.WhiteBackground {
+  display: flex;
+  flex: 1;
+  flex-direction: row !important;
+
+  width: 100%;
+}
+.WhiteBackgroundRightDivTopText {
+  color: black;
+
+  /* h3 */
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 112.5% */
+  margin-bottom: 32px;
+}
+.WhiteBackgroundRightDivListText {
+  color: var(--black-80, rgba(0, 0, 0, 0.8));
+
+  /* body-semibold */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.WhiteBackgroundRightDivListTextSpan {
+  color: black;
+  font-weight: 600;
+}
+.WhiteBackgroundExtraText {
+  margin-top: -16px;
+  color: var(--black-80, rgba(0, 0, 0, 0.8));
+
+  /* h4 */
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
 }

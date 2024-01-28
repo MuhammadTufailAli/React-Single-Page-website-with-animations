@@ -1,0 +1,54 @@
+.Section4TopDiv {
+  background-color: #c9fff7;
+  padding-bottom: 72px;
+}
+.Section4ResponsiveDiv {
+  background-color: #c9fff7;
+}
+.SkyBlueBackgroundParentDiv {
+  background-color: #c9fff7;
+  /* height: auto; */
+  height: 627px;
+}
+.SkyBlueBackground {
+  height: 100%;
+  background-color: #c9fff7;
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+
+.PeachBackgroundLeftDivInnerDivGreenColor {
+  border-radius: 56px;
+  background: var(--green-dark, #1d6767);
+  height: 100%;
+}
+.PeachBackgroundLeftDivInnerDivHeadingWhite {
+  color: var(--white, #fff);
+}
+.PeachBackgroundLeftDivInnerDivParagraphWhite {
+  color: var(--white-80, rgba(255, 255, 255, 0.8));
+}
+.PeachBackgroundLeftDivInnerDivBlackColor {
+  border-radius: 56px;
+  background: black;
+  height: 100%;
+}
+.SkyBlueBackgroundParentDiv2 {
+  margin-top: 20px;
+}
+.PeachBackgroundLeftDivInnerDivWhiteColor {
+  border-radius: 56px;
+  background: white;
+  height: 100%;
+}
+
+.PeachBackgroundLeftDivInnerDivImgLaptop {
+  width: 418px;
+}
+.PeachBackgroundLeftDivInnerDivImgTrading {
+  width: 323px;
+}
+.PeachBackgroundLeftDivInnerDivHeadingBlack {
+  color: black;
+}
