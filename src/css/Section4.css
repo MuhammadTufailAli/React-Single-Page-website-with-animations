@@ -2,13 +2,16 @@
   background-color: #c9fff7;
   padding-bottom: 72px;
 }
+.Section4TopDivHeading {
+  color: var(--green-dark, #1d6767);
+}
 .Section4ResponsiveDiv {
   background-color: #c9fff7;
 }
 .SkyBlueBackgroundParentDiv {
   background-color: #c9fff7;
-  /* height: auto; */
-  height: 627px;
+  height: auto;
+  display: flex;
 }
 .SkyBlueBackground {
   height: 100%;
@@ -16,6 +19,7 @@
   display: flex;
   flex: 1;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .PeachBackgroundLeftDivInnerDivGreenColor {

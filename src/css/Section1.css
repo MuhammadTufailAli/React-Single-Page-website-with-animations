@@ -273,6 +273,12 @@
 
   object-fit: cover;
 }
+
+.ResponsiveDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media screen and (min-width: 992px) {
   .ResponsiveDiv {
     max-width: 1248px;
@@ -282,5 +288,102 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .TabScreenShow {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .ResponsiveDiv {
+    max-width: 706px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .LaptopScreenShow {
+    display: none !important;
+  }
+
+  .Section1TopDivHeading {
+    font-size: 72px;
+  }
+  .Section1TopDivSubHeading {
+    font-size: 16px;
+    padding: 0px 146px;
+    line-height: 24px;
+  }
+  .Section1TopDivAfterJoinUs {
+    font-size: 22.428px;
+    line-height: 26.914px;
+    padding: 0px 92px;
+  }
+  .Section1TopDivAfterJoinUs950 {
+    font-size: 27.988px;
+
+    line-height: 26.914px;
+  }
+  .Section1TopDivAfterJoinUsCopy {
+    font-size: 22.428px;
+
+    line-height: 26.914px;
+  }
+
+  .PurpleBackground {
+    border-radius: 56px;
+    background: var(--purple-light, #cfceff);
+    display: flex;
+    flex: 1;
+    flex-direction: column !important;
+  }
+
+  .PurpleBackgroundLeftDivTopText {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  .PurpleBackgroundLeftDivTopSubText {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .PurpleBackgroundBottomDivLeftText {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  .PurpleBackgroundBottomDivRightText {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .PurpleBackgroundParentDivLaptopImageParentDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: end;
+    position: relative;
+    top: 60px;
+    right: 0px;
+    margin-top: -80px;
+  }
+  .PurpleBackgroundParentDivLaptopImage {
+    width: 82%;
+    height: auto;
+    object-fit: cover;
+  }
+  .PurpleBackgroundLeftDiv {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 56px 0px 56px;
+  }
+
+  /* Section2 Div Styleing start here */
+  .Section2TopDivHeading {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
   }
 }

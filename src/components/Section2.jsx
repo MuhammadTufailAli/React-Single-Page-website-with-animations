@@ -6,7 +6,7 @@ import { Input } from 'semantic-ui-react';
 import mobile1 from '../assets/mobile.png';
 import mobile2 from '../assets/mobile 2.png';
 import mobile3 from '../assets/mobile3.png';
-import chat from '../assets/chat.png';
+import PhoneChwl from '../assets/PhoneChwl.png';
 
 function Section2() {
   return (
@@ -151,6 +151,10 @@ function Section2() {
           </div>
           <div className='BlackBackgroundLeftDiv'>
             <img className='BlackBackgroundLeftDivImg' src={mobile2} />
+          </div>
+
+          <div className='BlackBackgroundCenterPhone'>
+            <img className='BlackBackgroundCenterPhoneImg' src={PhoneChwl} />
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@
   width: 100%;
   border-radius: 56px;
   background-color: #004973;
-  height: 627px;
+  /* height: 627px; */
 }
 
 .BlueBackground {
@@ -196,4 +196,49 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 133.333% */
+}
+@media screen and (min-width: 992px) {
+  .BlackBackgroundCenterPhone {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Section2 Div Styleing start here */
+  .Section2ResponsiveHeadingDiv {
+    padding: 80px 71px;
+  }
+  .Section2TopDivHeading {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+  }
+  .BlueBackgroundLeftDiv {
+    display: none;
+  }
+  .BlueBackgroundRightDiv {
+    padding: 72px 71px;
+  }
+  .BlueBackgroundRightDivTopText {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+  }
+  .BlackBackground {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .BlackBackgroundParentDiv {
+    height: auto;
+  }
+  .BlackBackgroundLeftDiv {
+    display: none;
+  }
+  .BlackBackgroundCenterPhone {
+    display: flex;
+    justify-content: center;
+  }
 }

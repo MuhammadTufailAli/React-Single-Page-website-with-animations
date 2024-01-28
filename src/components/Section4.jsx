@@ -12,11 +12,11 @@ function Section4() {
     <div className='Section2TopDiv Section4TopDiv'>
       <div className='ResponsiveDiv  Section2ResponsiveDiv Section4ResponsiveDiv'>
         <div className='Section2ResponsiveHeadingDiv'>
-          <h1 className='ParagrapghRalway Section2TopDivHeading Section3TopDivHeading'>
-            The Publisher
+          <h1 className='ParagrapghRalway Section2TopDivHeading Section4TopDivHeading'>
+            The Tradable
             <br />
             <span className='Section2TopDivHeadingSpan Section3TopDivHeadingSpan'>
-              Edge
+              Platform Edge
             </span>
           </h1>
         </div>

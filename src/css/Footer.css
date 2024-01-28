@@ -1,0 +1,98 @@
+.FooterTopDiv {
+  background-color: black;
+  border-top: 1px solid var(--grey-dark, #353535);
+  padding: 72px 96px;
+  display: flex;
+
+  flex: 1;
+}
+.FooterTopDivFlex {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.FooterFirstDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.FooterParagraph {
+  color: var(--white-80, rgba(255, 255, 255, 0.8));
+
+  /* h4 */
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+.FooterSecondDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.FooterThirdDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.FooterAtag {
+  color: var(--white, #fff);
+  text-align: justify;
+
+  /* button */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.FooterFourthDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.FooterImage {
+  width: 64px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 992px) {
+  .TabFooterFirstDiv {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .LaptopFooterFirstDiv {
+    display: none;
+  }
+  .FooterTopDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .TabFooterFirstDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+  }
+  .FooterParagraph {
+    text-align: center;
+  }
+  .FooterThirdDiv {
+    gap: 12px;
+  }
+  .FooterSecondDiv {
+    gap: 12px;
+  }
+  .FooterFourthDiv {
+    gap: 12px;
+  }
+}

@@ -12,14 +12,15 @@
 }
 .PeachBackgroundParentDiv {
   background-color: #ffd5c4;
-  /* height: auto; */
-  height: 627px;
+  height: auto;
+  display: flex;
 }
 .PeachBackground {
   background-color: #ffd5c4;
   display: flex;
   flex: 1;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .PeachBackgroundLeftDiv {
   flex: 1;
@@ -85,4 +86,25 @@
   width: 100%;
   object-position: center;
   right: 40px;
+}
+@media screen and (min-width: 992px) {
+  .BlackBackgroundLeftDivTabShow {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .PeachBackgroundLeftDivInnerDivHeading {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+  }
+  .BlackBackgroundLeftDivTabShow {
+    display: flex;
+  }
+  .BlackBackgroundLeftDivImgExtra {
+    position: relative;
+    margin-bottom: 21px;
+    right: 6px;
+  }
 }

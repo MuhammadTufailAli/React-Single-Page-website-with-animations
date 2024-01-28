@@ -60,6 +60,12 @@ function Section3() {
             <div className='Section3TopDivBlackRightDivFirstDiv'>
               <img src={Tick} />
             </div>
+            <div className='BlackBackgroundLeftDiv BlackBackgroundLeftDivTabShow'>
+              <img
+                className='BlackBackgroundLeftDivImg BlackBackgroundLeftDivImgExtra'
+                src={Group}
+              />
+            </div>
             <div className='Section3TopDivBlackRightDivSecondDiv'>
               <p className='BlueBackgroundRightDivTopText'>Tick of Approval</p>
               <p className='PeachBackgroundLeftDivInnerDivParagraph PeachBackgroundLeftDivInnerDivParagraphWhite'>

@@ -4,6 +4,7 @@ import '../css/Section1.css';
 import { Button } from 'semantic-ui-react';
 import { Input } from 'semantic-ui-react';
 
+import laptopFull from '../assets/laptopFull.png';
 import LaptopImage from '../assets/LaptopImage.png';
 import robot from '../assets/robot.png';
 import woman from '../assets/woman.png';
@@ -69,10 +70,16 @@ function Section1() {
             </div>
           </div>
           <div className='PurpleBackgroundRightDiv'></div>
+          <div className='PurpleBackgroundParentDivLaptopImageParentDiv TabScreenShow'>
+            <img
+              className='PurpleBackgroundParentDivLaptopImage'
+              src={laptopFull}
+            />
+          </div>
         </div>
-        <div className='PurpleBackgroundParentDivLaptopImageParentDiv'>
+        <div className='PurpleBackgroundParentDivLaptopImageParentDiv LaptopScreenShow'>
           <img
-            className='PurpleBackgroundParentDivLaptopImage'
+            className='PurpleBackgroundParentDivLaptopImage '
             src={LaptopImage}
           />
         </div>
