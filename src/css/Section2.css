@@ -1,0 +1,109 @@
+.Section2TopDiv {
+  background-color: #bfe8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Section2ResponsiveDiv {
+  margin-top: -281px;
+  position: absolute;
+  background-color: #bfe8ff;
+  border-top-right-radius: 56px;
+  border-top-left-radius: 56px;
+}
+.Section2ResponsiveHeadingDiv {
+  display: flex;
+  justify-content: flex-start;
+  padding: 96px 86px;
+  width: 100%;
+}
+.Section2TopDivHeading {
+  color: var(--blue-dark, #004973);
+
+  /* h2 */
+  font-family: Raleway;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 88px; /* 110% */
+  text-align: justify;
+}
+.Section2TopDivHeadingSpan {
+  color: var(--black, #000);
+}
+.BlueBackgroundParentDiv {
+  margin-top: 152px;
+  width: 100%;
+  border-radius: 56px;
+  background-color: #004973;
+}
+
+.BlueBackground {
+  display: flex;
+  flex: 1;
+  flex-direction: row !important;
+
+  width: 100%;
+}
+.BlueBackgroundLeftDiv {
+  flex: 1;
+  position: relative;
+  padding: 72px 86px;
+}
+.BlueBackgroundLeftDivImg {
+  display: absolute;
+}
+.BlueBackgroundRightDiv {
+  flex: 1.1;
+  display: flex;
+  flex-direction: column;
+  padding: 72px 86px;
+}
+
+.BlueBackgroundRightDivTopText {
+  color: var(--white, #fff);
+
+  /* h3 */
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 112.5% */
+  margin-bottom: 32px;
+}
+.BlueBackgroundRightDivListText {
+  color: var(--white, #fff);
+
+  /* body-semibold */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.BlueBackgroundRightDivListTextSpan {
+  font-weight: 600;
+}
+.BlueBackgroundRightDiv .ui.list .list > .item > i.icon,
+.ui.list > .item > i.icon {
+  color: white;
+}
+.BlueBackgroundRightDivBottomText {
+  color: var(--white-80, rgba(255, 255, 255, 0.8));
+
+  /* body text */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-top: 32px;
+}
+.BlueBackgroundRightDivBottomTextaTag {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.BlueBackgroundRightDivBottomTextaTag:hover {
+  color: white;
+}

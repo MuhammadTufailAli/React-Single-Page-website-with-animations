@@ -1,0 +1,286 @@
+.Section1TopDiv {
+  background-color: black;
+  padding-top: 136px;
+  position: relative;
+  padding-bottom: 438px;
+}
+.Section1TopDivRobotParentDiv {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+
+  position: absolute;
+  top: 195px;
+  right: 0px;
+}
+.Section1TopDivRobot {
+  width: 64%;
+  height: auto;
+
+  object-fit: cover;
+  /* width: 257px; */
+}
+.Section1TopDivWomanParentDiv {
+  width: 22%;
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+
+  position: absolute;
+  top: 460px;
+}
+.Section1TopDivWoman {
+  width: 64%;
+  height: auto;
+
+  object-fit: cover;
+}
+.Section1TopDivChatParentDiv {
+  width: 13%;
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+
+  position: absolute;
+  top: 452px;
+  left: 14%;
+}
+.Section1TopDivChat {
+  width: 64%;
+  height: auto;
+
+  object-fit: cover;
+}
+.Section1TopDiv .ui[class*='top fixed'].menu {
+  background-color: black;
+}
+.ParagrapghRalway {
+  font-family: Raleway;
+
+  text-align: center;
+  font-style: normal;
+}
+.ParagraphLato {
+  font-family: Lato;
+  text-align: center;
+  font-style: normal;
+}
+
+.Section1TopDivJoinUsButton {
+  display: flex;
+  width: 250px !important;
+  padding: 16px 32px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex-shrink: 0 !important;
+  border-radius: 40px !important;
+  background: var(--accent-yellow, #ffeb92) !important;
+  transition: width 0.3s ease-in-out !important;
+  font-family: Lato !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  color: var(--black, #000) !important;
+}
+
+.Section1TopDivJoinUsButton:hover {
+  width: 220px !important;
+  background: var(--accent-yellow, #ffeb92) !important;
+}
+.Section1TopDivJoinUsButton:active {
+  background: var(--accent-yellow, #ffeb92) !important;
+}
+
+.Section1TopDivHeading {
+  font-size: 88px;
+  font-weight: 800;
+  line-height: 96px;
+  padding: 0px 127px;
+  margin-top: 72px !important;
+  color: white;
+}
+.Section1TopDivSubHeading {
+  color: var(--white-80, rgba(255, 255, 255, 0.8));
+
+  font-size: 23.333px;
+
+  font-weight: 400;
+  line-height: 35px;
+  padding: 0px 322px;
+  margin-top: 18px;
+  margin-bottom: 56px;
+  padding: 0px 266px;
+}
+.Section1TopDivAfterJoinUs {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32.055px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38.466px; /* 120% */
+  padding: 0px 282px;
+  margin-top: 28px;
+  margin-bottom: 84px;
+}
+.Section1TopDivAfterJoinUs950 {
+  color: var(--white, #fff);
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38.466px;
+}
+.Section1TopDivAfterJoinUsCopy {
+  color: var(--white, #fff);
+  font-family: Raleway;
+  font-size: 32.055px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38.466px;
+}
+
+.PurpleBackgroundParentDiv {
+  margin-top: 84px;
+  position: relative;
+}
+
+.PurpleBackground {
+  border-radius: 56px;
+  background: var(--purple-light, #cfceff);
+  display: flex;
+  flex: 1;
+  flex-direction: row !important;
+}
+
+.PurpleBackgroundLeftDiv {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  padding: 72px 56px;
+}
+.PurpleBackgroundRightDiv {
+  flex: 1;
+}
+
+.PurpleBackgroundLeftDivTopText {
+  color: var(--black, #000);
+
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 112.5% */
+  margin-bottom: 16px;
+}
+.PurpleBackgroundLeftDivTopTextSpan {
+  color: var(--purple-dark, #5f31c1);
+}
+.PurpleBackgroundLeftDivTopSubText {
+  color: var(--black-80, rgba(0, 0, 0, 0.8));
+
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  margin-bottom: 48px;
+}
+
+.Section1TopDiv .ui.input {
+  width: 558px;
+}
+.Section1TopDiv .ui.input > input {
+  display: flex;
+
+  padding: 20px 32px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 40px;
+  background: var(--white, #fff);
+}
+
+.Section1TopDiv .PurpleBackground .ui.button {
+  display: flex;
+  width: 200px;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 0px 40px 40px 0px !important;
+  background: var(--accent-yellow, #ffeb92);
+  color: black;
+  color: var(--black, #000);
+  text-align: center;
+
+  /* button */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.Section1TopDiv .ui.button:hover {
+  background: var(--accent-yellow, #ffeb92) !important;
+}
+.Section1TopDiv .ui.button:active {
+  background: var(--accent-yellow, #ffeb92) !important;
+}
+
+.PurpleBackgroundBottomDiv {
+  display: flex;
+  flex-direction: row !important;
+  margin-top: 48px;
+}
+
+.PurpleBackgroundBottomDivLeftText {
+  color: var(--purple-dark, #5f31c1);
+
+  /* h3 */
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 112.5% */
+  margin-right: 38px;
+}
+
+.PurpleBackgroundBottomDivRightText {
+  color: var(--black, #000);
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px; /* 120% */
+}
+
+.PurpleBackgroundParentDivLaptopImageParentDiv {
+  width: 59%;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.PurpleBackgroundParentDivLaptopImage {
+  width: 64%;
+  height: auto;
+
+  object-fit: cover;
+}
+@media screen and (min-width: 992px) {
+  .ResponsiveDiv {
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
