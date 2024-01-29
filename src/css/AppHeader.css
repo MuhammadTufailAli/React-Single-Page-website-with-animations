@@ -1,14 +1,59 @@
 /* styles.css */
 
-@media (max-width: 768px) {
-    .menu-toggle {
-      display: none;
-    }
+.ui.inverted.menu .dropdown.item:hover,
+.ui.inverted.menu .link.item:hover,
+.ui.inverted.menu a.item:hover,
+.ui.link.inverted.menu .item:hover {
+  color: #ffeb92 !important;
+  background: none !important;
+}
+
+.AppHeaderTopContainer .ui.menu .item a {
+  color: pink;
+}
+
+.ui.primary.button {
+  background-color: black !important;
+}
+
+.ui.inverted.menu {
+  background-color: black !important;
+}
+.AppHeaderTopContainer .ui.button:hover {
+  background: transparent !important;
+}
+
+.LoginModelButton {
+  display: flex;
+  border-top: 1px solid var(--grey-light, #ababab);
+  border-bottom: 1px solid var(--grey-light, #ababab);
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 1146px) {
+  .AppHeaderTopContainer .menu-toggle {
+    display: none !important;
   }
-  
-  @media (min-width: 769px) {
-    .menu-toggle {
-      display: block;
-    }
+  /* .menu-toggle {
+    display: block;
+  } */
+}
+@media only screen and (max-width: 767px) {
+  .ui.menu > .ui.container {
+    width: 95% !important;
   }
-  
+  .header {
+    justify-content: start !important;
+  }
+  .ui.tiny.image,
+  .ui.tiny.images .image,
+  .ui.tiny.images img,
+  .ui.tiny.images svg {
+    margin-top: 13px;
+  }
+  .ui.mini.image,
+  .ui.mini.images .image,
+  .ui.mini.images img,
+  .ui.mini.images svg {
+    margin-top: -87px;
+  }
+}

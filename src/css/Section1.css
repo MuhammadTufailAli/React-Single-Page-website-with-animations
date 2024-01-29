@@ -223,7 +223,7 @@
   line-height: 24px; /* 150% */
 }
 .Section1TopDiv .ui.button:hover {
-  background: var(--accent-yellow, #ffeb92) !important;
+  /* background: var(--accent-yellow, #ffeb92) !important; */
 }
 .Section1TopDiv .ui.button:active {
   background: var(--accent-yellow, #ffeb92) !important;
