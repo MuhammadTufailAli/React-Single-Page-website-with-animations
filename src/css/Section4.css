@@ -1,7 +1,7 @@
 .Section4TopDiv {
   background-color: #c9fff7;
   padding-bottom: 72px;
-  transition: background-color 0.7s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 }
 .Section4TopDivHeading {
   color: var(--green-dark, #1d6767);

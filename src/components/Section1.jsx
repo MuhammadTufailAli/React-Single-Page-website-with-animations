@@ -43,7 +43,7 @@ function Section1() {
 
   // Determine which section is currently in the center of the page
   const sectionHeight = window.innerHeight;
-  const heightTosub = sectionHeight / 2;
+  const heightTosub = sectionHeight / 1;
 
   const section1Height =
     document.getElementsByClassName('Section1TopDiv')[0]?.offsetHeight || 0;
@@ -56,11 +56,11 @@ function Section1() {
   const section5Height =
     document.getElementsByClassName('Section5TopDiv')[0]?.offsetHeight || 0;
 
-  const section1Top = section1Height - heightTosub;
-  const section2Top = section1Top + section2Height;
-  const section3Top = section2Top + section3Height;
-  const section4Top = section3Top + section4Height;
-  const section5Top = section4Top + section5Height;
+  const section1Top = section1Height - heightTosub - 30;
+  const section2Top = section1Top + section2Height - 30;
+  const section3Top = section2Top + section3Height - 30;
+  const section4Top = section3Top + section4Height - 30;
+  const section5Top = section4Top + section5Height - 30;
 
   let backgroundColor = 'black';
 
