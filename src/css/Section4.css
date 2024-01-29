@@ -1,6 +1,7 @@
 .Section4TopDiv {
   background-color: #c9fff7;
   padding-bottom: 72px;
+  transition: background-color 0.7s ease-in-out;
 }
 .Section4TopDivHeading {
   color: var(--green-dark, #1d6767);
@@ -9,13 +10,15 @@
   background-color: #c9fff7;
 }
 .SkyBlueBackgroundParentDiv {
-  background-color: #c9fff7;
+  /* background-color: #c9fff7; */
+  background: transparent !important;
   height: auto;
   display: flex;
 }
 .SkyBlueBackground {
   height: 100%;
-  background-color: #c9fff7;
+  /* background-color: #c9fff7; */
+  background: transparent !important;
   display: flex;
   flex: 1;
   gap: 20px;
@@ -40,6 +43,7 @@
 }
 .SkyBlueBackgroundParentDiv2 {
   margin-top: 20px;
+  background: transparent !important;
 }
 .PeachBackgroundLeftDivInnerDivWhiteColor {
   border-radius: 56px;

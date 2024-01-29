@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import AppHeader from './AppHeader';
 import '../css/Section1.css';
 import { Button } from 'semantic-ui-react';
@@ -11,6 +11,93 @@ import woman from '../assets/woman.png';
 import chat from '../assets/chat.png';
 
 function Section1() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const prevScrollPositionRef = useRef(0);
+  var setIndex = 1;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const newScrollPosition = window.scrollY;
+      setScrollPosition(newScrollPosition);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    prevScrollPositionRef.current = scrollPosition;
+  }, [scrollPosition]);
+
+  useEffect(() => {
+    const section1Element = document.querySelector(`.Section${setIndex}TopDiv`);
+
+    if (section1Element) {
+      section1Element.style.backgroundColor = backgroundColor;
+    }
+  }, [scrollPosition]);
+
+  // Determine which section is currently in the center of the page
+  const sectionHeight = window.innerHeight;
+  const heightTosub = sectionHeight / 2;
+
+  const section1Height =
+    document.getElementsByClassName('Section1TopDiv')[0]?.offsetHeight || 0;
+  const section2Height =
+    document.getElementsByClassName('Section2TopDiv')[0]?.offsetHeight || 0;
+  const section3Height =
+    document.getElementsByClassName('Section3TopDiv')[0]?.offsetHeight || 0;
+  const section4Height =
+    document.getElementsByClassName('Section4TopDiv')[0]?.offsetHeight || 0;
+  const section5Height =
+    document.getElementsByClassName('Section5TopDiv')[0]?.offsetHeight || 0;
+
+  const section1Top = section1Height - heightTosub;
+  const section2Top = section1Top + section2Height;
+  const section3Top = section2Top + section3Height;
+  const section4Top = section3Top + section4Height;
+  const section5Top = section4Top + section5Height;
+
+  let backgroundColor = 'black';
+
+  if (scrollPosition >= section1Top && scrollPosition < section2Top) {
+    if (prevScrollPositionRef?.current < scrollPosition) {
+      setIndex = 1;
+    } else {
+      setIndex = 2;
+    }
+
+    backgroundColor = '#bfe8ff'; // Adjust the colors as needed
+    // backgroundColor = '#bfe8ff';
+  } else if (scrollPosition >= section2Top && scrollPosition < section3Top) {
+    if (prevScrollPositionRef?.current < scrollPosition) {
+      setIndex = 2;
+    } else {
+      setIndex = 3;
+    }
+    backgroundColor = '#ffd5c4';
+  } else if (scrollPosition >= section3Top && scrollPosition < section4Top) {
+    if (prevScrollPositionRef?.current < scrollPosition) {
+      setIndex = 3;
+    } else {
+      setIndex = 4;
+    }
+
+    backgroundColor = '#c9fff7';
+  } else if (scrollPosition >= section4Top && scrollPosition < section5Top) {
+    if (prevScrollPositionRef?.current < scrollPosition) {
+      setIndex = 4;
+    } else {
+      setIndex = 5;
+    }
+    backgroundColor = '#000';
+  } else if (scrollPosition >= section5Top) {
+    // Change the color for section 5
+  }
   return (
     <div className='Section1TopDiv'>
       <div className='Section1TopDivRobotParentDiv'>

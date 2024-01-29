@@ -1,5 +1,6 @@
 .Section3TopDiv {
   background-color: #ffd5c4;
+  transition: background-color 0.7s ease-in-out;
 }
 .Section3ResponsiveDiv {
   background-color: #ffd5c4;
@@ -11,12 +12,13 @@
   color: var(--black, #000);
 }
 .PeachBackgroundParentDiv {
-  background-color: #ffd5c4;
+  /* background-color: #ffd5c4; */
+  background: transparent !important;
   height: auto;
   display: flex;
 }
 .PeachBackground {
-  background-color: #ffd5c4;
+  /* background-color: #ffd5c4; */
   display: flex;
   flex: 1;
   gap: 20px;
